@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:wasm": "cd parser && wasm-pack build --target web",
+    "watch:wasm": "nodemon -w ./parser/src -e rs --exec \"npm run build:wasm\""
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "nodemon": "^3.1.1",
+    "svelte": "^4.2.12",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@jscad/modeling": "^2.12.1",
+    "@jscad/scad-api": "^0.5.1",
+    "jscad-utils": "^3.2.0",
+    "three": "^0.164.1",
+    "three-bvh-csg": "^0.0.16",
+    "three-csg": "^1.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+export const pallet = {
+    InteriorWall: {color: '#008000'},
+    ExteriorWall: {color: '#FFB400'},
+    Roof: {color: '#800000'},
+    InteriorFloor: {color: '#80FFFF'},
+    ExposedFloor: {color: '#40B4FF'},
+    Shade: {color: '#FFCE9D'},
+    UndergroundWall: {color: '#A55200'},
+    UndergroundSlab: {color: '#804000'},
+    Ceiling: {color: '#FF8080'},
+    Air: {color: '#FFFF00'},
+    UndergroundCeiling: {color: '#408080'},
+    RaisedFloor: {color: '#4B417D'},
+    SlabOnGrade: {color: '#804000'},
+    FreestandingColumn: {color: '#808080'},
+    EmbeddedColumn: {color: '#80806E'},
+}
